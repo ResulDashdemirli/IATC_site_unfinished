@@ -1,0 +1,197 @@
+#login-form {
+    top: 22em;
+    position: relative;
+    background: rgb(243, 240, 240)
+}
+
+.login-box {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 50em;
+    height: 33em;
+    padding: 1.5em 3.4em;
+    transform:  translate(-50%, -50%);
+    background: rgba(25, 36, 89);
+    box-sizing: border-box;
+    box-shadow: 0 1.5em 2.5em rgba(0,0,0, .6);
+    border-radius: .5em;
+    margin-bottom: 5em;
+}
+
+.login-box h2{
+    margin: 0 0 1em;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login-box .user-box{
+    position: relative;
+}
+
+.login-box .user-box input, .dropdown {
+    width: 100%;
+    padding: 1.1em 0;
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 1.4em;
+    border: none;
+    border-bottom: .1em solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: .6em 0;
+    font-size: 1.1em;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+    top: -2em;
+    left: 0;
+    color: #DA0B4E;
+    font-size: .7em;
+}
+
+.login-box a{
+    position: relative;
+    display: inline-block;
+    padding: .3em 1em;
+    color: #DA0B4E;
+    font-size: 1.1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: .7em;
+    letter-spacing: .2em;
+}
+
+.login-box a:hover {
+    background-color: #DA0B4E;
+    color: #fff;
+    border-radius: .3em;
+    box-shadow: 0 0 .2em #DA0B4E, 0 0 .4em #DA0B4E, 0 0 1.6em #DA0B4E, 0 0 6.4em #DA0B4E;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown:hover .dropdown-list{
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.dropdown-select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-list {
+    border-radius: .3em;
+    background: linear-gradient(#141e30, #243b55);
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    top: 110%;
+    visibility: hidden;
+    opacity: .4;
+    transition: opacity .4s linear, visibility .4s linear;
+}
+
+.dropdown-list-item {
+    padding: .4em;
+}
+
+footer {
+    background-color:#272727;
+    font-size: 1em;
+    padding: 2em 4em;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#social_links{
+    align-items: center;
+}
+
+.copyright {
+    color: #fff;
+    opacity: .7;
+}
+
+.icons {
+    position: absolute;
+    right: 3em;
+}
+
+.icons .icon-link {
+    float: left;
+    display: inline;
+    transition: all .3s linear;
+}
+
+.icon-link i{
+    color: rgb(99, 99, 99);
+}
+
+.icons .insta:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons .twit:hover {
+    background: radial-gradient(circle at 30% 107%,#36d8ff 90%, #00acee 60%, #66757f 45%, #f5f8fa 5%, #fff 0%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons .fb:hover {
+    background: radial-gradient(circle at 50% 107%,#36d8ff 45%, #135eff 95%, #66757f 60%, #f5f8fa 5%, #fff 0%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons .linkedin:hover {
+    background: radial-gradient(circle at 50% 107%,#f5f8fa 70%,#36d8ff 0%, #135eff 45%, #66757f 5%, #fff 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer li.icon-link:not(:last-child) {
+    margin-right: 1.5em;
+}
+
+@media(max-width: 992px) {
+    #about-section {
+        text-align: center;
+    }
+
+    .about {
+        padding-top: 1em;
+    }
+}
+
+@media (max-width: 992px){
+    .login-box {
+        width: 35em;
+    }
+}

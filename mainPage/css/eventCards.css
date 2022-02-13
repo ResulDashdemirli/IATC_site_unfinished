@@ -1,0 +1,39 @@
+.events-section{
+    background-color: rgb(243, 240, 240);
+    width: 98.9vw;
+    text-align: center;
+ }
+ #tedbirlerimiz{
+    font-size: 1.2em;
+    opacity: 60%;
+ }
+ #future-events strong{
+     color:#da0b4e;
+     font-size: 35px;
+     font-family: 'Playfair Display', serif;
+ }
+ .articles {
+    margin-bottom: 2.5em;
+    transition: all ease .4s;
+    background-color: #fff;
+    height: 20em;
+    border-radius: .6em;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+}
+.articles img {
+    height: 15em;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .6em .6em 0 0;
+}
+.event-name {
+    padding: 1em 2em;
+}
+.event-name h4 {
+    font-size: 1em;
+}
+a {
+    color: #4a5682;
+    text-decoration: none;
+    background-color: transparent;
+}

@@ -1,0 +1,143 @@
+* {
+    transition: all .2;
+}
+
+.courses-body {
+    background-color: #e1e8ec;
+}
+
+.courses {
+    background-color: #fdf1ef;
+}
+
+.course-par {
+    margin: .3em auto 0;
+    font-size: 1.2em;
+    opacity: 60%;
+}
+
+.course-platform {
+    width: 98.9vw;
+    margin-right: 0;
+}
+
+.par-name {
+    color: #DA0B4E;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.time {
+    color: #DA0B4E;
+}
+
+.time1 {
+    color: #333c56;
+}
+
+.time i {
+    margin: 10px 10px 10px 0px;
+    color: #DA0B4E;
+}
+
+.courses-info div {
+    color: #656874;
+}
+
+.fa-arrow-circle-right {
+    font-size: 1.4em;
+}
+
+.courses-info {
+    font-family: 'Manrope', sans-serif;
+}
+.courses-card img {
+    width: 45%;
+    object-fit: contain;
+}
+
+.courses-card img:hover {
+    opacity: 0.6;
+}
+
+a.detailed {
+    text-decoration: none;
+    color: #333c56;
+}
+
+.detailed i:hover {
+    color: #333c56;
+}
+
+h4 {
+    cursor: pointer;
+}
+
+.backend img,
+.design img,
+.fullstack img,
+.marketing img,
+.frontend img,
+.mobile img {
+    border-radius: 5%;
+    width: 35%;
+    object-fit: contain;
+}
+
+.general-info {
+    width: 85%;
+}
+
+.general-info p {
+    color: #656874;
+}
+
+.general-info h4 {
+    color: #333c56;
+}
+
+.btn-registration {
+    background-color: #DA0B4E;
+    color: #fff;
+    border-radius: 15%;
+}
+
+.btn-registration i {
+    color: #fff;
+    font-size: 15px;
+}
+
+.teacher {
+    width: 85%;
+    height: 300px;
+}
+
+.teacher img {
+    width: 22%;
+    object-fit: contain;
+}
+
+.media-icons i {
+    color: #DA0B4E;
+    font-size: 20px;
+    margin: 20px 15px;
+    transition: all .3s ease;
+    cursor: pointer;
+
+}
+
+.media-icons i:hover {
+    color: #333c56;
+}
+
+.teacher h4 {
+    color: #333c56;
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .courses-info {
+        height: 14em;
+    }
+}

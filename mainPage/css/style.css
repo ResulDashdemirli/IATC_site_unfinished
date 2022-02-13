@@ -1,0 +1,125 @@
+body{
+    background-color: white ;
+    width: 98.9vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+.about {
+    padding-top: 2em;
+}
+
+#about h1{
+    text-align: center;
+    justify-content: center;
+    color: #2d3954;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family:  sans-serif;
+}
+
+.aboutParagraph{
+    opacity: 60%;
+}
+#anaseh {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: -10px;
+   
+}
+#img1{
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+}
+#about{
+    font-size: 40px;
+    margin-top: .7em;
+    font-weight: 600;
+    text-align: center;
+    color: #DA0B4E;
+    font-family: 'Playfair Display', serif;
+}
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color:#272727;
+    font-size: 1em;
+    padding: 2em 4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+#social_links{
+    align-items: center;
+}
+
+.copyright {
+    color: #fff;
+    opacity: .7;
+}
+
+.icons {
+    position: absolute;
+    right: 3em;
+}
+
+.icons .icon-link {
+    float: left;
+    display: inline;
+    transition: all .3s linear;
+}
+
+.icon-link i{
+    color: rgb(99, 99, 99);
+}
+
+.icons .insta:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons .twit:hover {
+    background: radial-gradient(circle at 30% 107%,#36d8ff 90%, #00acee 60%, #66757f 45%, #f5f8fa 5%, #fff 0%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons .fb:hover {
+    background: radial-gradient(circle at 50% 107%,#36d8ff 45%, #135eff 95%, #66757f 60%, #f5f8fa 5%, #fff 0%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons .linkedin:hover {
+    background: radial-gradient(circle at 50% 107%,#f5f8fa 70%,#36d8ff 0%, #135eff 45%, #66757f 5%, #fff 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer li.icon-link:not(:last-child) {
+    margin-right: 1.5em;
+}
+
+@media(max-width: 992px) {
+    #about-section {
+        text-align: center;
+    }
+
+    .about {
+        padding-top: 1em;
+    }
+}

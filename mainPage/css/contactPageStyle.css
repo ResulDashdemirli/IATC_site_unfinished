@@ -1,0 +1,28 @@
+body{
+    background-color:#e1e8ec;
+    height: 100vh;
+}
+p{
+    color: #647BA9;
+   
+}
+.info{
+    display: flex;
+}
+.header-contact{
+    height: 300px;
+    padding-top: 130px;
+}
+.contact{
+    width: 80%;
+    margin-bottom: 9em;
+}
+.contact-title{
+    font-weight: bold;
+    color: #2D3954;
+}
+.info i{
+    color:#DA0B4E;
+    margin: 10px;
+    font-size: 30px;
+}

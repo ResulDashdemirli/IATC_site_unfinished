@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(99, 99, 99);
+}
+
+.par-sectionName {
+    align-items: center;
+}
+
+#haqqimizda2, #komanda_uzvleri {
+    position: absolute;
+    display: block;
+}
+
+#haqqimizda2{
+    margin: .7em auto .7em;
+    left: 46%;
+    top: .1em;
+    font-size: 1.2em;
+    opacity: 60%;
+}
+
+#komanda_uzvleri{
+    color: #DA0B4E;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 40px;
+    left: 40%;
+    top: 1em;
+}
+
+#teammates {
+    height: 35em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(243, 240, 240);
+}
+
+.swiper {
+    width: 55em;
+}
+
+#teammates .team-card .image {
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    padding: .2em;
+    background: #192459;
+}
+
+#teammates .team-card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: .1em solid #fff;
+}
+
+.team-card {
+    position: relative;
+    background: #fff;
+    border-radius: 1.2em;
+    margin: 1.2em 0;
+    width: 10em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.team-card::before {
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    background: #192459;
+    border-radius: 1.2em 1.2em 0 0;
+}
+
+.team-card .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    position: relative;
+}
+
+.team-card .media-icons {
+    position: absolute;
+    top: .5em;
+    right: 1.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-card .media-icons i {
+    color: #fff;
+    opacity: .7;
+    margin-top: .4em;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.team-card .media-icons i:hover {
+    opacity: 1;
+}
+
+.team-card .name-profession {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .6em;
+    color: #333;
+}
+
+.name-profession .name {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.name-profession .profession {
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.team-card .experience {
+    margin-top: .8em;
+}
+
+.team-card .card-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .5em;
+}
+
+.team-card .card-button button {
+    background: #192459;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: .7em 1.8em;
+    border-radius: 1.5em;
+    font-size: .9em;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.card-button button:hover {
+    background: #27388d;
+}
+
+.nextBtn::before, .prevBtn::after {
+    background: #192459;
+}
+
+@keyframes scroll{
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(calc(-250px));
+    }
+}
+
+@media (max-width: 992px) {
+    #komanda_uzvleri {
+        font-size: 40px;
+        left: 33%;
+        top: 1em;
+    }
+
+    .cards-container {
+        margin-top: 2em;
+    }
+
+    .team-card .card-content {
+        align-items: center;
+    }
+
+    .swiper {
+        width: 40em;
+      }
+}
+
+@media (max-width: 768px) {
+    #komanda_uzvleri {
+        font-size: 2.2em;
+        left: 30%;
+        top: 1.4em;
+    }
+
+    #haqqimizda2 {
+        left: 40%
+    }
+    .swiper {
+        width: 18em;
+      }
+}

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/navStyle.css">
+    <link rel="stylesheet" href="./css/cards.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/eventCards.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/loopStyle.css">
+    <link rel="stylesheet" href="./css/mainCourses.css">
+    <script src="../interaction/Team_members.js" defer type="module"></script>
+    <script src="../interaction/courses.js" defer type="module"></script>
+    <script src="../interaction/About_us.js" type="module" defer></script>
+    <script src="../interaction/events.js"type="module" defer ></script>
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" defer></script>
+    <title>Ana səhifə</title>
+
+</head>
+
+<body>
+    <!--Nav begins-->
+    <nav id="nav">
+        <div class=" d-flex ">
+            <div class="logo  pl-5 ">
+                <a href=""><img src="./img/logo_main.png" alt=""></a>
+            </div>
+
+            <div class="links responsive  my-auto mr-lg-5">
+
+                <ul class="navigation">
+                    <li class="nav-item">
+                        <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                            aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation"><i
+                                class="fa-solid fa-bars"></i>
+                        </button></li>
+                    <li class="nav-item"><a href="mainPage.html" class="nav-link">ANA SƏHİFƏ</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">HAQQIMIZDA</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">KURSLARIMIZ</a></li>
+                    <li class="nav-item"><a href="#news_section" class="nav-link">TƏDBİRLƏRİMİZ</a></li>
+                    <li class="nav-item"><a href="mainContact.html" class="nav-link">ƏLAQƏ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Nav ends-->
+    <section class="main-page">
+        <div class="slider">
+            <div class="slides">
+                <!-- radio buttons start -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- radio buttons ends -->
+
+                <!-- slide images start -->
+                <div class="slide first">
+                    <img src="./img/slayder_backend.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/dsc_2670.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/dsc_2676.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="./img/dsc_2687.jpg" alt="">
+                </div>
+                <!-- slide images ends -->
+                <!-- automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!-- automatic navigation end-->
+            </div>
+            <!-- manual navigation start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation end -->
+        </div>
+        <!-- image slider ends -->
+    </section>
+
+    <!--Carousel begins-->
+    <section class="companies">
+        <div class="company-slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img src="./img/1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/kpt_bank.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/p1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/p2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/p3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/pblogo.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/kpt_bank.jpg" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/p1.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/p2.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/p3.png" height="100" width="250" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/pblogo.png" height="100" width="250" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Carousel ends-->
+
+    <!--About page-->
+    <div class="container">
+        <h1 id="about" class="about breadcrumb-title">Haqqımızda</h1>
+    </div>
+    <div class="container">
+        <div class="row align-items-center">
+            <div id="about-section" class="col-lg-6 col-md-6 col-sm-12">
+                <div class="list_facts_wrap">
+                    <div class="sec-heading mb-3">
+                        <h2 id="about_title"></h2>
+                    </div>
+
+                    <div class="list_facts">
+                        <div class="list_facts_caption">
+
+                            <p class="aboutParagraph" style="font-size: 18px">
+                               
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <img id="img1" src="./img/edu_2.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--About ends-->
+
+    <!--Courses begin-->
+    <div id="courses" class="courses my-">
+        <div class="courses-header text-center">
+            <p class="pt-5 course-par">Karyerana bizimlə başla</p>
+            <p class="par-name">Kurslarımız</p>
+        </div>
+        <div class="courses-item">
+            <div class="course-platform row justify-content-center" id="inter_courses">
+                <div class="shadow-sm courses-card col-md-5 d-flex bg-light m-4 p-3 rounded border-1">
+                    <img src="./img/8.png" alt="" class="img-fluid  mr-3 rounded ">
+                    <div class="courses-info">
+                        <h4>BackEnd</h4>
+                        Müəllim: <strong>Asaf Amir</strong>
+                        <div class=" time">
+                            <i class="fas fa-desktop"></i> 15 həftə
+                            <i class="fas fa-users ml-5"></i>30 tələbə
+                        </div>
+                        <div class=" float-right mt-4">
+                            <a href="mainBackend.html" class="detailed" target="_blank"> <strong class="my-auto ">
+                                    Ətraflı</strong> <i class="fas fa-arrow-circle-right ml-2 "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shadow-sm courses-card col-md-5 d-flex bg-light m-4 p-3 rounded border-1">
+                    <img src="./img/41.png" alt="" class="img-fluid  mr-3 rounded ">
+                    <div class="courses-info">
+                        <h4>Web, UIUX Design</h4>
+                        Müəllim: <strong>Dan Freyfeld</strong>
+                        <div class=" time">
+                            <i class="fas fa-desktop"></i> 15 həftə
+                            <i class="fas fa-users ml-5"></i>30 tələbə
+                        </div>
+                        <div class=" float-right mt-4">
+                            <a href="mainUI_UX.html" class="detailed" target="_blank"> <strong class="my-auto ">
+                                    Ətraflı</strong> <i class="fas fa-arrow-circle-right ml-2 "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shadow-sm courses-card col-md-5 d-flex bg-light m-4 p-3 rounded border-1">
+                    <img src="./img/k1.png" alt="" class="img-fluid  mr-3 rounded ">
+                    <div class="courses-info">
+                        <h4>Full Stack Development</h4>
+                        Müəllim:<strong>Məmmədrza Talıbov</strong>
+                        <div class=" time">
+                            <i class="fas fa-desktop"></i> 15 həftə
+                            <i class="fas fa-users ml-5"></i>30 tələbə
+                        </div>
+                        <div class=" float-right mt-4">
+                            <a href="mainFullstack.html" class="detailed" target="_blank"> <strong class="my-auto ">
+                                    Ətraflı</strong> <i class="fas fa-arrow-circle-right ml-2 "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shadow-sm courses-card col-md-5 d-flex bg-light m-4 p-3 rounded border-1">
+                    <img src="./img/k2.png" alt="" class="img-fluid  mr-3 rounded ">
+                    <div class="courses-info">
+                        <h4>Digital Marketing</h4>
+                        Müəllim: <strong>Asaf Amir</strong>
+                        <div class=" time">
+                            <i class="fas fa-desktop"></i> 15 həftə
+                            <i class="fas fa-users ml-5"></i>30 tələbə
+                        </div>
+                        <div class=" float-right mt-4">
+                            <a href="mainMarketing.html" class="detailed" target="_blank"> <strong class="my-auto ">
+                                    Ətraflı</strong> <i class="fas fa-arrow-circle-right ml-2 "></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="shadow-sm courses-card col-md-5 d-flex bg-light m-4 p-3 rounded border-1">
+                    <img src="./img/k4.png" alt="" class="img-fluid  mr-3 rounded ">
+                    <div class="courses-info">
+                        <h4>FrontEnd</h4>
+                        Müəllim: <strong>Rza Talıbov</strong>
+                        <div class=" time">
+                            <i class="fas fa-desktop"></i> 15 həftə
+                            <i class="fas fa-users ml-5"></i>30 tələbə
+                        </div>
+                        <div class=" float-right mt-4">
+                            <a href="mainFrontend.html" class="detailed" target="_blank"> <strong class="my-auto ">
+                                    Ətraflı</strong> <i class="fas fa-arrow-circle-right ml-2 "></i></a>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="shadow-sm courses-card col-md-5 d-flex bg-light m-4 p-3 rounded border-1">
+                    <img src="./img/k5.png" alt="" class="img-fluid  mr-3 rounded ">
+                    <div class="courses-info">
+                        <h4>Mobile Development</h4>
+                        Müəllim: <strong>Qədir Rüstəmli</strong>
+                        <div class=" time">
+                            <i class="fas fa-desktop"></i> 15 həftə
+                            <i class="fas fa-users ml-5"></i>30 tələbə
+                        </div>
+                        <div class=" float-right mt-4">
+                            <a href="mainMobile.html" class="detailed" target="_blank"> <strong class="my-auto ">
+                                    Ətraflı</strong> <i class="fas fa-arrow-circle-right ml-2 "></i>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+    <!--Courses ends-->
+
+    <!--Teammates begins-->
+    <section id="teammates">
+        <div class="par-sectionName text-center">
+            <p class="pt-1" id="haqqimizda2">Haqqımızda</p>
+            <p id="komanda_uzvleri">Komanda Üzvləri</p>
+        </div>
+        <div class="swiper mySwiper cards-container" >
+            <div class="swiper-wrapper content" id="inter_teamMembers">
+<!-- 
+                <div class="swiper-slide team-card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./img/t1.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a><i class="fab fa-twitter"></i></a>
+                            <a><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">Qədir Rüstəmli</span>
+                            <span class="profession">Full Stack Web Developer</span>
+                        </div>
+
+                        <div class="experience">
+                            <span class="name">Experience: 4 Year</span>
+                        </div>
+
+                        <div class="card-button">
+                            <button class="aboutMe">Haqqında</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide team-card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./img/t2.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a><i class="fab fa-twitter"></i></a>
+                            <a><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">Dan Freyfeld</span>
+                            <span class="profession">UI / UX Designer</span>
+                        </div>
+
+                        <div class="experience">
+                            <span class="name">Experience: 4 Year</span>
+                        </div>
+
+                        <div class="card-button">
+                            <button class="aboutMe">Haqqında</button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="swiper-slide team-card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./img/t3.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a><i class="fab fa-twitter"></i></a>
+                            <a><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">Asaf Amir</span>
+                            <span class="profession">Full Stack Web Developer</span>
+                        </div>
+
+                        <div class="experience">
+                            <span class="name">Experience: 4 Year</span>
+                        </div>
+
+                        <div class="card-button">
+                            <button class="aboutMe">Haqqında</button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="swiper-slide team-card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./img/t4.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a><i class="fab fa-twitter"></i></a>
+                            <a><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">Rza Talıbov</span>
+                            <span class="profession">Full Stack Web Developer</span>
+                        </div>
+
+                        <div class="experience">
+                            <span class="name">Experience: 4 Year</span>
+                        </div>
+
+                        <div class="card-button">
+                            <button class="aboutMe">Haqqında</button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="swiper-slide team-card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./img/t6.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a><i class="fab fa-twitter"></i></a>
+                            <a><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">Alex Kaplun</span>
+                            <span class="profession">Baş məsləhətçi</span>
+                        </div>
+
+                        <div class="experience">
+                            <span class="name">Experience: 4 Year</span>
+                        </div>
+
+                        <div class="card-button">
+                            <button class="aboutMe">Haqqında</button>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div class="swiper-slide team-card">
+                    <div class="card-content">
+                        <div class="image">
+                            <img src="./img/t7.jpg" alt="">
+                        </div>
+
+                        <div class="media-icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a><i class="fab fa-twitter"></i></a>
+                            <a><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                        <div class="name-profession">
+                            <span class="name">Rasim Abdullayev</span>
+                            <span class="profession">Baş menecer</span>
+                        </div>
+
+                        <div class="experience">
+                            <span class="name">Experience: 4 Year</span>
+                        </div>
+
+                        <div class="card-button">
+                            <button class="aboutMe">Haqqında</button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!--Teammates ends-->
+
+    <!--Events begins-->
+    <section class="bg-light events-section" id="news_section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-6 col-sm-12">
+                    <div class="sec-heading center">
+                        <p class="pt-3" id="tedbirlerimiz">Tədbirlərimiz</p>
+                        <p>
+                            <span class="theme-cl" id="future-events"><strong>Gələcək tədbirlər</strong></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row pl-lg-3 pl-sm-1"  id="inter_events">
+                <!-- <div class="col-lg-4 col-md-4 col-sm-12 mb-4 events">
+                    <div class="articles">
+                        <div class="articles_grid_thumb">
+                            <a href="mainEventsIATC.html"><img src="./img/11111.png" class="img-fluid" alt="" /></a>
+                        </div>
+
+                        <div class="articles_grid_caption event-name">
+                            <h4>İsrail Azərbaycan Təlim Mərkəzi fəaliyyətə başladı</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 mb-4 events">
+                    <div class="articles">
+                        <div class="articles_grid_thumb">
+                            <a href="mainEventsWebDev.html" target="_blank"><img src="./img/ff5f7da7749bd713957f0c23b505a55c.jpg" class="img-fluid"
+                                    alt="" /></a>
+                        </div>
+                                
+                        <div class="articles_grid_caption event-name">
+                            <h4>
+                                İsrail Azərbaycan Təlim Mərkəzində veb proqramlaşdırma
+                                kurslarına start verilib
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!--Events ends-->
+
+    <!--Footer begins-->
+    <footer>
+        <div class="footer-bottom">
+            <div class="footer">
+                <div class="row align-items-center">
+
+                    <div>
+                        <p class="mb-0 copyright">© 2022 Israil Azərbaycan Təlim Mərkəzi</p>
+                    </div>
+                    <div class="icons">
+                        <ul class="footer-bottom-social" id="social_links">
+                            <li class="icon-link fb"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="icon-link twit"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="icon-link insta"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="icon-link linkedin"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer ends-->
+
+    <!-- Swiper JS cdn-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 2000,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1
+                },
+                768: {
+                    slidesPerView: 2
+                },
+                992: {
+                    slidesPerView: 3
+                },
+            }
+        });
+    </script>
+</body>
+
+</html>
